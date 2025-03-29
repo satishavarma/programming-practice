@@ -1,11 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <p>file no - 2</p>
-</body>
+    <h1>Learning form elements</h1>
+    <h1>form elements</h1>
+    <form>
+        <label>Name:</label> <!-- label for naming -->
+        <input placeholder="Enter your name">
+        <button type="button">Submit</button>
+        <br>
+        <label>Last Name: </label>
+        <input placeholder="last name">
+        <button type="button">Submit</button>
+        <br>
+        <label>Date of Birth:</label>
+        <input placeholder="DD/MM/YYYY">
+        <br>
+        <label>Your Review:</label>
+        <textarea rows="3" cols="30">Add detailed review here</textarea>
+        <br>
+        <br>
+        <label>Choose a fruit:</label>
+        <select> <!--for multiple value selection-->
+            <option value="apple">Apple </option>
+            <option value="orange">Orange </option>
+            <option value="mango">Mango </option>
+            <option value="banana">Banana </option>
+        </select>
+        <br>
+        <br>
+        <fieldset disabled> <!-- to differnciate from the form element-->
+            <label>City:</label>
+            <br>
+            <input placeholder="surat">
+            <br>
+
+            <label>State:</label>
+            <br>
+            <input placeholder="gujarat">
+            <br>
+
+            <label>Country:</label>
+            <br>
+            <input placeholder="India">
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Shipping Address</legend>  <!--legend usage for add value for fieldset-->
+            <br>
+            <label>City:</label>
+            <br>
+            <input placeholder="Pune">
+            <br>
+            <label>State:</label>
+            <br>
+            <input placeholder="Maharashtra">
+            <br>
+            <label>Country:</label>
+            <br>
+            <input placeholder="India">
+            <br>
+            <label>Zip Code:</label>
+            <br>
+            <input placeholder="411014">
+            <br>
+
+            <br>
+       <input placeholder="Sam Smith" required> <!--required is to add input compalsory-->
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+       <br>
+       <br>
+       <br>
+       <h1>Input Type -Text</h1>
+       <h1>Learning Input type</h1>
+       <br>
+       <br>
+       <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Chinua Achebe">
+        <br>
+        <label>Password:</label>
+        <input type="password" >
+        <br>
+        <input type="submit" >
+        <br>
+        <button type="submit"><!--ib button we can add text pics-->
+            <img src="https://ik.imagekit.io/d9mvewbju/tr:w-60,h-60/Course/BigbinaryAcademy/like_QjxRuLga9o.png">
+          </button>
+          <input type="reset">
+          <br>
+          <br>
+          <label>Can you vote?</label>
+          <br>
+          <input type="radio" value="no" name="vote">
+          <label>No</label>
+          <br>
+          <input type="radio" value="yes" name="vote">
+          <label>Yes</label>
+          <br>
+          <input type="radio" value="maybe" name="vote">
+          <label>Maybe!</label>
+          <br>
+          <br>
+          <label>Fruits you like:</label>
+          <br>
+          <input type="checkbox" value="apple">
+          <label>Apple</label>
+          <br>
+          <input type="checkbox" value="banana">
+          <label>Banana</label>
+          <br>
+          <input type="checkbox" value="orange">
+          <label>Orange</label>
+          <br>
+          <input type="button" value="Click Me!">
+          <br>
+          <br>
+          <label>Enter your email:</label>
+          <input type="email" value="smith@example.com"><br>
+          <button>Submit</button><br>
+          <br>
+          <label for="birth-date">Birthday:</label>
+  <input type="date" min="1950-01-01" max="2000-01-01"><br>
+  <button>Submit</button>
+  <br>
+  <br>
+  <label>Select Meeting Time:</label>
+  <input type="time" id="meetingTime">
+  <br>
+  <button>Submit</button>
+  <br>
+  <br>
+  <input type="file" accept="image/png, image/jpeg" placeholder="image.png/image.jpeg" multiple><br>
+  <button>Submit</button>
+     <br>
+     <br>
+     <label for="contact">Mobile Number:</label>
+  <input type="tel" placeholder="+91 012 3456 789">
+      </form>
+      <br>
+      <br>
+      <label for="train-number">Train Number:</label>
+  <input type="number" placeholder="119121">
+  <br>
+  <button>Submit</button>
+  <br>
+  <br>
+  <label for="birth-date">Date and time of Birth:</label>
+  <input type="datetime-local">
+  <br>
+  <button>Submit</button>
+  <br>
+  <br>
+  <label>Favourite Colour:</label>
+  <input type="color">
+  <br>
+  <button>Submit</button>
+  <br>
+  <header>
+    THiS IS HTML
+  </header>
+   <label for="username">Full Name:</label>
+  <input type="text" id="username">
+  <br>
+  <label for="color-choice">Favourite Colour:</label>
+  <input type="color" id="color-choice">
+  <br>
+  <button>Submit</button>
+  <br>
+  <br>
+  <label for="username">Full Name:</label>
+  <input type="text" id="username" autofocus>
+  <br>
+    <button>click</button>
+    <div className="button">click</div>
+    <br>
+    <br>
+    <h3>footer</h3>
+    <footer>
+        <p>Copyright belongs to Our Company Inc.</p>
+      </footer>
+      <audio src="https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav" controls>
+    </audio>
+    <br>
+    <br>
+    <video controls width="320" height="350">
+        <source src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/cooking_C3Umy1-Rq.mp4?updatedAt=1733248384992" type="video/webm">
+      </video>
+      <br>
+      <br>
+      <iframe src="https://www.google.co.in/" width="300px" height="380px" frameborder="0"></iframe>
+       <br>
+       <br>
+       <figure>
+        <img src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/white-peacock_xvHGCPI-H.jpg" alt="A white peacock" style="width:30%">
+        <p>Fig.1 - A white peacock.</p>
+      </figure>
+      <br>
+      <br>
+      <dialog open>
+        <p>This is a basic dialog box.</p>
+      </dialog>
+    </body>
+
 </html>
