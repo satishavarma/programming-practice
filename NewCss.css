@@ -1,0 +1,36 @@
+h2{
+    color: red;
+}
+.heading{
+    color: blue;
+}
+.center{
+    text-align: center;
+}
+.color{
+    color: yellowgreen;
+}
+#title{
+    color: rgb(255, 0, 225);
+}
+.pone{
+   color: brown;
+}
+.ptwo{
+    color: rgb(128, 128, 128);
+}
+.pthree{
+    color: #ffa500;
+}
+
+.pfour{
+    color: hsl(210, 45%, 20%);
+}
+
+.divEle{
+    background-color: peachpuff;
+}
+
+div{
+    background-color: peachpuff;
+}
