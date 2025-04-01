@@ -34,3 +34,12 @@ h2{
 div{
     background-color: peachpuff;
 }
+
+.image{
+    height: 200px;
+    background-color: rgba(218, 210, 210, 0.642);
+}
+
+.sun{
+    height: 50%;
+}
