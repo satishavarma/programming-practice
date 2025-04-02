@@ -18,7 +18,7 @@ div {
   #second {
     width: 50%;
     height: 100px;
-    background-color: orange;
+    background-color: rgb(38, 44, 113);
   }
 
   #pixels {
@@ -36,7 +36,7 @@ div {
   #percentage {
     width: 20%;
     height: 20%;
-    background-color: orange;
+    background-color: rgb(110, 202, 104);
     font-size: 200%;
   }
 
@@ -44,5 +44,22 @@ div {
     font-size: 20px;
     width: 10em;
     /* 10em = 10*font-size = 10*20px = 200px */
-    background-color: orange;
+    background-color: rgb(148, 59, 15);
+  }
+
+
+  html {
+    font-size: 10px;
+  }
+  #firstDiv {
+    width: 10rem;
+    height: 10rem;
+    background-color: beige;
+    font-size: 1em;
+  }
+  #secondDiv {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(168, 21, 154);
+    font-size: 24px;
   }
