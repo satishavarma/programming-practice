@@ -39,3 +39,10 @@ div {
     background-color: orange;
     font-size: 200%;
   }
+
+  .em {
+    font-size: 20px;
+    width: 10em;
+    /* 10em = 10*font-size = 10*20px = 200px */
+    background-color: orange;
+  }
