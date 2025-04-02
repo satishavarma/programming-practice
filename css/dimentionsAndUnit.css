@@ -20,3 +20,9 @@ div {
     height: 100px;
     background-color: orange;
   }
+
+  #pixels {
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+  }
