@@ -9,3 +9,7 @@ p{
 #third{
     color: #808080;
 }
+
+#four{
+    color: hsl(300, 100%, 25%);
+}
