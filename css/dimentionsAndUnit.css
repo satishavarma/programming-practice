@@ -26,3 +26,16 @@ div {
     height: 50px;
     background-color: teal;
   }
+
+  html {
+    width: 40%;
+    height: 40%;
+    
+    
+  }
+  #percentage {
+    width: 20%;
+    height: 20%;
+    background-color: orange;
+    font-size: 200%;
+  }
