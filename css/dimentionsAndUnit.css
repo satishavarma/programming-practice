@@ -63,3 +63,8 @@ div {
     background-color: rgb(168, 21, 154);
     font-size: 24px;
   }
+
+  .window{
+    height: 100vh;
+    background-color: beige;
+  }
