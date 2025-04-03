@@ -68,3 +68,10 @@ div {
     height: 100vh;
     background-color: beige;
   }
+
+  .windowWidth{
+    width: 50vw;
+    height: 50vw;
+    background-color: rgb(77, 189, 214);
+    font-size: 50px;
+  }
