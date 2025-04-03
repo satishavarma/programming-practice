@@ -1,0 +1,15 @@
+.main {
+    margin: 20px auto;
+    width: 600px;
+  }
+  img {
+    height: 300px;
+    width: 600px;
+  }
+  p {
+    width: 550px;
+    border: 5px solid red;
+    padding: 20px;
+    margin-top: 20px;
+    max-height: 150px;
+  }
