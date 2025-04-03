@@ -1,0 +1,8 @@
+div {
+    width: 400px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: lightgrey;
+    border: 4px dotted black;
+    outline: 4px dashed tomato;
+  }
