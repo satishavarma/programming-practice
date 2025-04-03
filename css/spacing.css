@@ -1,7 +1,7 @@
 /* body {
     background-color: orange;
   } */
-  p {
+  .newpara{
     background-color: yellow;
     margin: 2em;
   }
@@ -44,4 +44,15 @@
     width: 50%;
     height: 100px;
     margin-top: -2em;
+  }
+
+  .paraone {
+    width: 75%;
+    margin: auto;
+    
+  }
+  .para {
+    width: 75%;
+    margin: 10px auto 0px;
+    
   }
