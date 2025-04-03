@@ -56,3 +56,15 @@
     margin: 10px auto 0px;
     
   }
+
+
+  .parent {
+    background-color: lightblue;
+    height: 80px;
+    padding: 30px;
+  }
+  
+  .paddingpara {
+    width: 50%;
+    background-color: chartreuse;
+  }
