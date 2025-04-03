@@ -1,7 +1,17 @@
-body {
+/* body {
     background-color: orange;
-  }
+  } */
   p {
     background-color: yellow;
     margin: 2em;
+  }
+
+  #first {
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  #second {
+    background-color: orange;
+    margin-right: 80px;
   }
