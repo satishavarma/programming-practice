@@ -30,3 +30,16 @@ h2 {
   #newprice {
     color: green;
   }
+
+  #first {
+    line-height: 1em;
+  }
+  #second {
+    line-height: 140%;
+  }
+  #third {
+    line-height: 2;
+  }
+  #fourth {
+    line-height: normal;
+  }
