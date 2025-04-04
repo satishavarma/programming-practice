@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  ul {
+    text-align: left;
+    /* This is the default value */
+  }
+  #credits {
+    text-align: right;
+  }
