@@ -92,3 +92,8 @@
     background-color: lightgray;
     padding: 50px 100px; /* top-bottom right-left */
   }
+  
+.singleValue{
+  background-color: lightgray;
+  padding: 50px;
+}
