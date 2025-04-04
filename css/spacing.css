@@ -82,3 +82,8 @@
     padding: 50px 100px 80px 20px; /* top right bottom left */
 
   }
+
+  .threeValues{
+    background-color: lightgray;
+    padding: 50px 20px 80px; /* top right-left bottom */
+  }
