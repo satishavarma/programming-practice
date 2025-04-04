@@ -11,3 +11,22 @@ h2 {
   #credits {
     text-align: right;
   }
+
+
+  .decoration{
+    text-decoration: underline overline dotted red;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  #linethrough {
+    text-decoration: line-through;
+  }
+  .none {
+    text-decoration: none;
+    /* Removes default underline */
+    color: purple;
+  }
+  #newprice {
+    color: green;
+  }
