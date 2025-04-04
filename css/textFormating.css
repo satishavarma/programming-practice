@@ -43,3 +43,12 @@ h2 {
   #fourth {
     line-height: normal;
   }
+
+
+  h1 {
+    letter-spacing: -3px;
+  }
+  .latterspacing {
+    letter-spacing: 0.2em;
+  }
+  
