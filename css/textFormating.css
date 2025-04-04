@@ -52,3 +52,9 @@ h2 {
     letter-spacing: 0.2em;
   }
   
+  .hfont {
+    font-size: 2.4em;
+  }
+  .parafont {
+    font-size: 120%;
+  }
