@@ -58,3 +58,30 @@ h2 {
   .parafont {
     font-size: 120%;
   }
+
+  #serif {
+    font-family: serif;
+  }
+  #sans-serif {
+    font-family: sans-serif;
+  }
+  #monospace {
+    font-family: monospace;
+  }
+  #cursive {
+    font-family: cursive;
+  }
+  #fantasy {
+    font-family: fantasy;
+  }
+  p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+.first {
+    font-weight: bold;
+  }
+  .second{
+    font-weight: 400; /* Normal */
+  }
