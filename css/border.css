@@ -61,3 +61,19 @@ div {
     border-bottom-style: dashed;
     border-color: #cccccc;
   }
+
+  #firstRadius {
+    background-color: teal;
+    border-radius: 15px;
+    width: 100px;
+  height: 100px;
+  margin: 10px;
+  }
+  #secondRadius {
+    background-color: red;
+    border: 5px solid darkred;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
