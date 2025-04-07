@@ -14,3 +14,9 @@ div {
     padding: 8px 12px;
     border-style: outset;
   }
+
+  #newwidth{
+     border-style: solid;
+      border-width: thin 4px;
+     
+  }
