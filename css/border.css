@@ -81,7 +81,7 @@ div {
   .twoBorderRadius {
     width: 250px;
     height: 150px;
-    background-color: teal;
+    background-color: rgb(219, 121, 16);
     border-radius: 40px 10px;
   }
 
@@ -90,4 +90,11 @@ div {
     height: 150px;
     background-color: teal;
     border-radius: 40px 10px 0px;
+  }
+
+  .fourBorderRadius {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(27, 15, 188);
+    border-radius: 40px 10px 0 100px;
   }
