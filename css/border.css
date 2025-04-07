@@ -35,3 +35,18 @@ div {
     border-style: solid;
     border-color: orange;
   }
+
+  #twocolor {
+    border-style: solid;
+    border-color: grey red;
+  }
+
+  #threecolor {
+    border-style: dashed;
+    border-color: blue transparent green;
+  }
+
+  #fourcolor {
+    border-style: solid;
+    border-color: blue red green yellow;
+  }
