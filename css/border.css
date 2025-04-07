@@ -50,3 +50,14 @@ div {
     border-style: solid;
     border-color: blue red green yellow;
   }
+
+  #firstBorderside {
+    border-style: solid;
+    border-left-color: red;
+    border-right-color: green;
+  }
+  #secondBorderside {
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-color: #cccccc;
+  }
