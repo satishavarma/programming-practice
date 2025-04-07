@@ -20,3 +20,8 @@ div {
       border-width: thin 4px;
      
   }
+  #threeValue{
+     border-style: solid;
+      border-width: 1px 2px 4px;
+     
+  }
