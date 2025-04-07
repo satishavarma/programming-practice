@@ -84,3 +84,10 @@ div {
     background-color: teal;
     border-radius: 40px 10px;
   }
+
+  .threeBorderRadius {
+    width: 250px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 40px 10px 0px;
+  }
