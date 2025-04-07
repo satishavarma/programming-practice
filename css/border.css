@@ -25,3 +25,8 @@ div {
       border-width: 1px 2px 4px;
      
   }
+
+  #fourValues{
+    border-style: solid;
+    border-width: 1px 2px 3px 4px;
+  }
