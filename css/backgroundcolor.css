@@ -4,3 +4,9 @@ p{
 div{
     background-color: rgb(75, 51, 51);
 }
+
+.background-image {
+    background-image: url('https://images.pexels.com/photos/4913167/pexels-photo-4913167.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600');
+    padding: 30px;
+    color: white;
+  }
