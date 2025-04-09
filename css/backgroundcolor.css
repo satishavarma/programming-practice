@@ -21,3 +21,12 @@ div{
     background-color: white;
     
   }
+.repeatVertical {
+    
+    background-color: white;
+    
+  }
+  body{
+    background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
+    background-repeat: repeat-y;
+  }
