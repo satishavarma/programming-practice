@@ -10,3 +10,8 @@ div{
     padding: 30px;
     color: white;
   }
+.repeat {
+    background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+  }
