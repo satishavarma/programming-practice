@@ -15,3 +15,9 @@ div{
     background-repeat: no-repeat;
     background-color: aliceblue;
   }
+.repeatHorizontal {
+    background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
+    background-repeat: repeat-x;
+    background-color: white;
+    
+  }
