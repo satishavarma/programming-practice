@@ -30,3 +30,11 @@ div{
     background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=150');
     background-repeat: repeat-y;
   }
+
+  .backgroundsize{
+    padding: 60px;
+    background-image: url('https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=400');
+    /* Image stretches to occupy full space */
+    background-size: cover;
+    color: blue;
+  }
