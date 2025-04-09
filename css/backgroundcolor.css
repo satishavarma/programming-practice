@@ -74,3 +74,10 @@ div{
     padding: 20px;
     color: black;
   }
+
+
+  .conicgradient{
+    background: conic-gradient(violet, indigo, blue, green, yellow, orange, red);
+    padding: 20px;
+    color: black;
+  }
