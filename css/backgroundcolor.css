@@ -68,3 +68,9 @@ div{
     padding: 20px;
     color: black;
   }
+
+  .radial-gradient{
+    background: radial-gradient(circle at center, red, yellow, blue);
+    padding: 20px;
+    color: black;
+  }
