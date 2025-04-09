@@ -62,3 +62,9 @@ div{
     background-repeat: no-repeat;
     background-position: 30% 10px;
   }
+
+  .linear-gredient{
+    background: linear-gradient(to top right, red, orange, yellow, white);
+    padding: 20px;
+    color: black;
+  }
