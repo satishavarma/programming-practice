@@ -81,3 +81,13 @@ div{
     padding: 20px;
     color: black;
   }
+ .percentage{
+    background: linear-gradient(to right, 
+    red 10%,
+    yellow 80%,
+    green 90%,
+    blue 100%
+  );
+  padding: 20px;
+  color: black;
+ }
