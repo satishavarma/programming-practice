@@ -46,3 +46,11 @@ div{
     background-repeat: no-repeat;
     background-position: right top;
   }
+
+  .backgroundPositiontwo{
+    height: 300px;
+    background-color: lightblue;
+    background-image: url('https://images.pexels.com/photos/207305/pexels-photo-207305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150');
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
