@@ -1,0 +1,9 @@
+p {
+    background-color: yellow;
+    margin-top: 30px;
+  }
+  span, a {
+    display: block;
+    background-color: orange;
+    margin-top: 30px;
+  }
