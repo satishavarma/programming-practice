@@ -1,0 +1,8 @@
+div {
+    background-color: lightgreen;
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+    border: solid 40px darkgreen;
+    margin: 30px;
+  }
