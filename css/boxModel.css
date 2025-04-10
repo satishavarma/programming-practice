@@ -6,3 +6,16 @@ div {
     border: solid 40px darkgreen;
     margin: 30px;
   }
+
+  .box{
+    
+        background-color: green;
+        width: 250px;
+        height: 150px;
+        padding: 20px;
+        color: lightblue;
+        border: solid 20px darkgreen;
+        margin: 30px;
+        box-sizing: border-box
+      
+  }
