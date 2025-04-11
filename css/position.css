@@ -1,10 +1,10 @@
-div {
+/* div {
     border: solid 1px lightgray;
     width: 210px;
     padding: 20px;
   }
   #div1 {
-    position: static; /* Default */
+    position: static;  Default 
   }
   #div2 {
     position: relative;
@@ -43,7 +43,7 @@ div {
     position: relative;
     top: -40px;
     right: -40px;
-    /* Same as left: 40px in this case */
+    Same as left: 40px in this case 
     width: 80px;
     height: 80px;
   }
@@ -70,4 +70,57 @@ div {
     bottom: 100px;
     left: 60px;
     z-index: 4;
+  } */
+
+
+  /* body {
+    background-color: steelblue;
+  } */
+  div {
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+}
+#outer-container {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+}
+#container {
+  width: 60vw;
+  height: 60vh;
+  margin: 30px;
+}
+#child-element-1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#child-element-2, #child-element-3 {
+  width: 40vw;
+  margin: 10px;
+}
+
+
+#parent-cont {
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+     position: relative; 
+    /* No position specified. Hence, position is static */
+  }
+  #outer-cont {
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+     position: relative; 
+    /* No position specified. Hence, position is static */
+  }
+  #absol {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
   }

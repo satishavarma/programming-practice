@@ -92,5 +92,42 @@
     </div>
 
     <!-- z-index does not work on elements with static position. -->
+
+    <!-- POSITION ABSOLUTE-->
+     <!-- Setting an element's position to absolute lets us move it within its parent using top, right, bottom, and left offsets.
+
+     This element will be placed relative to the closest ancestor with any other position value.-->
+
+    <div id="outer-container">
+        <div id="container">
+          <div id="child-element-1">
+            Child 1
+          </div>
+          <div id="child-element-2">
+            Child 2
+          </div>
+          <div id="child-element-3">
+            Child 3
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!-- An absolute element's location changes with respect to its parent element. This works only if the parent element has its own position set to a value other than static.
+
+      If this is not so, the absolute element looks for the nearest parent whose position is set to a value other than static. If no such parent element is found, its location changes with respect to the body itself-->
+
+      <div id="outer-cont">
+        <div id="parent-cont">
+          <div id="absol">
+          </div>
+        </div>
+      </div>
 </body>
 </html>
