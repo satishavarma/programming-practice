@@ -124,3 +124,19 @@
     right: 10px;
     top: 0px;
   }
+
+  #parent {
+    position: relative;
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+  }
+  #absolute {
+    /* No width & height */
+    position: absolute;
+    background-color: orange;
+    top: 20px;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+  }
