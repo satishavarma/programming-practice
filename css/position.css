@@ -140,3 +140,22 @@
     bottom: 20px;
     left: 0;
   }
+
+
+  #parent {
+    position: relative;
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+  }
+  #absolute {
+    /* Width & height specified */
+    position: absolute;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 0; /* right ignored */
+    bottom: 20px; /* bottom ignored */
+    left: 0;
+  }
