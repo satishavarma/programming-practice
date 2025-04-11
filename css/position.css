@@ -1,0 +1,16 @@
+div {
+    border: solid 1px lightgray;
+    width: 210px;
+    padding: 20px;
+  }
+  #div1 {
+    position: static; /* Default */
+  }
+  #div2 {
+    position: relative;
+  }
+  #div3 {
+    position: relative;
+    left: 100px;
+    top: 100px;
+  }

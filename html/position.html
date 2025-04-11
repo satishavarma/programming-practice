@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
+    <link rel="stylesheet" href="../css/position.css">
+
 </head>
 <body>
-    
+    <!--By default, all the HTML elements appear on the web page one after another in the same order as specified in the HTML markup. We can change this with the help of the CSS position property. -->
+
+    <!-- Position Relative-->
+     <!-- The default value for the position property is static. It makes the elements follow the normal flow.
+
+     When you set an element's position to relative, you can move the element to a new location.
+
+     The top, right, bottom and left properties are used to note the distance of the new location from the original default location.-->
+     <div id="div1">
+        Static
+      </div>
+      <div id="div2">
+        Relative, but not moved
+      </div>
+      <div id="div3">
+        Relative & moved
+      </div>
+
+      <!-- The top and left properties wouldn't work if you remove the position property. These properties don't work with the static position elements. You can check this by removing the position property for div3. Also, try setting top,right, bottom and left properties to div2 to see what happens.-->
 </body>
 </html>
