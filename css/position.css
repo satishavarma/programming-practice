@@ -32,3 +32,42 @@ div {
     border: 5px solid darkblue;
     color: white;
   }
+
+  #nagativestatic {
+    background-color: teal;
+    width: 80px;
+    height: 80px;
+  }
+  #nagativerelative {
+    background-color: orange;
+    position: relative;
+    top: -40px;
+    right: -40px;
+    /* Same as left: 40px in this case */
+    width: 80px;
+    height: 80px;
+  }
+
+
+
+  div {
+    width: 80px;
+    height: 80px;
+    position: relative;
+  }
+  #one {
+    background-color: indigo;
+    z-index: 4;
+  }
+  #two {
+    background-color: orange;
+    bottom: 50px;
+    left: 30px;
+    z-index: -1;
+  }
+  #three {
+    background-color: teal;
+    bottom: 100px;
+    left: 60px;
+    z-index: 4;
+  }
