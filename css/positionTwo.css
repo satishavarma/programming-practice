@@ -48,3 +48,34 @@
     position: sticky;
     top: 0px;
   }
+
+
+
+
+  .parentmain {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .child {
+    position: absolute;
+    background-color: orange;
+  }
+  #child1 {
+    inset: 10px 20px 30px 0px;
+    /* top right bottom left - clockwise direction starting from top */
+  }
+  #child2 {
+    inset: 10px 20px 30px;
+    /* top right&left bottom */
+  }
+  #child3 {
+    inset: 10px 20px;
+    /* top&bottom right&left */
+  }
+  #child4 {
+    inset: 10px;
+    /* all four */
+  }
