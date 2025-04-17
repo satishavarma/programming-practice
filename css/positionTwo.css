@@ -32,3 +32,19 @@
    /* top: 100px;   top offset value*/
        bottom: 50px;
   }
+
+
+  #parent1 {
+    width: 250px;
+    height: 250px;
+    background-color: teal;
+    margin-top: 50px;
+  }
+  
+  #sticky1 {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+  }
