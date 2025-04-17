@@ -30,5 +30,5 @@
     height: 50px;
     position: sticky;
    /* top: 100px;   top offset value*/
- 
+       bottom: 50px;
   }
