@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+  }
+  .pink, .orange, .green {
+    padding: 30px;
+  }
+  .pink {
+    background-color: lightpink;
+  }
+  .green {
+    background-color: lightgreen;
+  }
+  .orange {
+    background-color: orange;
+  }
