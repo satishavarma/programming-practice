@@ -39,3 +39,14 @@
     flex-direction: column-reverse;
     min-height:200px;
   }
+
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container1 > .wrap {
+    background-color: rgb(205, 39, 205);
+    padding: 30px 90px;
+    margin: 5px;
+  }
