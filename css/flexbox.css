@@ -45,8 +45,38 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .container1 > .wrap {
+  .container1 > div {
     background-color: rgb(205, 39, 205);
     padding: 30px 90px;
     margin: 5px;
+  }
+
+
+  .container {
+    display: flex;
+    padding: 10px;
+    background-color: beige;
+  }
+  .container > div {
+    background-color: orange;
+    padding: 20px;
+    margin: 5px;
+  }
+  .flex-start {
+    justify-content: flex-start;
+  }
+  .flex-end {
+    justify-content: flex-end;
+  }
+  .center {
+    justify-content: center;
+  }
+  .between {
+    justify-content: space-between;
+  }
+  .around {
+    justify-content: space-around;
+  }
+  .evenly {
+    justify-content: space-evenly;
   }
