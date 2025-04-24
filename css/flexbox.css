@@ -15,7 +15,7 @@
   }
 
 
-  .container {
+  /* .container {
     display: flex;
     padding: 10px;
     background-color: beige;
@@ -79,4 +79,37 @@
   }
   .evenly {
     justify-content: space-evenly;
+  } */
+
+
+
+
+  .container {
+    display: flex;
+    padding: 10px;
+    background-color: beige;
+    min-height: 150px;
+  }
+  .container > div {
+    background-color: orange;
+    padding: 20px;
+    margin: 5px;
+  }
+  .container > div:nth-child(2) {
+    font-size: 2em;
+  }
+  .flex-start {
+    align-items: flex-start;
+  }
+  .flex-end {
+    align-items: flex-end;
+  }
+  .center {
+    align-items: center;
+  }
+  .baseline {
+    align-items: baseline;
+  }
+  .stretch {
+    align-items: stretch; /* Default */
   }
