@@ -162,3 +162,23 @@
   .shrink-more {
     flex-shrink: 5;
   }
+
+
+
+  .containerBasis {
+    display: flex;
+  }
+  .containerBasis > div {
+    padding: 30px;
+    margin: 10px;
+    background-color: orange;
+  }
+  #one {
+    flex-basis: 50px;
+  }
+  #two {
+    flex-basis: 50%;
+  }
+  #three {
+    flex-basis: 50%;
+  }
