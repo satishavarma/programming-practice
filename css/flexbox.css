@@ -144,3 +144,21 @@
   .p2 {
     flex-grow: 2;
   }
+
+
+
+  .containerShrink {
+    display: flex;
+  }
+  .containerShrink > div {
+    padding: 30px;
+    margin: 10px;
+    width: 33%;
+    background-color: orange;
+  }
+  .shrink {
+    flex-shrink: 1;
+  }
+  .shrink-more {
+    flex-shrink: 5;
+  }
