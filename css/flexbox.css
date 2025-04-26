@@ -113,3 +113,34 @@
   .stretch {
     align-items: stretch; /* Default */
   }
+
+
+  .containerMain {
+    display: flex;
+    height: 200px;
+  }
+  .containerMain > div {
+    padding: 20px;
+    margin: 5px;
+    background-color: orange;
+  }
+  .last {
+    align-self: end;
+  }
+
+
+
+  .containerFlex {
+    display: flex;
+  }
+  p {
+    background-color: #f1f1f8;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+  }
+  .p1 {
+    flex-grow: 1;
+  }
+  .p2 {
+    flex-grow: 2;
+  }
