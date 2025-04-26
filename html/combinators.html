@@ -19,7 +19,7 @@
           </p>
 
           <!-- NOTE = Here, > is a combinator. Notice that the styles were only applied to the p elements within a div-->
-
+             
           <br>
           <br>
           <br>
@@ -27,7 +27,30 @@
 
 
           <!-- Selecting all Child Elements-->
+           <!-- When we need to select a particular set of child elements, we use the space character like this-->
+          
+           <div>
+            <p>
+              The internet is built with links
+              <a href="#">Link 1 inside div 1</a>
+            </p>
+          </div>
+          <div>
+            <a href="#">Link 2 inside div 2</a>
+          </div>
+          <a href="#">Link 3</a>
+          <div>
+            <p>
+              A broken link is a broken promise.
+              <a href="#">Link 4 inside div 3</a>
+            </p>
+          </div>
+          <div>
+            <a href="#">Link 5 inside div 4</a>
+          </div>
+          <a href="#">Link 6</a>
 
-          <!-- When we need to select a particular set of child elements, we use the space character like this:-->
+          <!-- Here, div a will select all a elements that are the children of a div element, even when those a elements are nested deeper within the div-->
+           
 </body>
 </html>
