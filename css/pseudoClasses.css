@@ -17,3 +17,16 @@ input[type="text"] {
   button:hover {
     background-color: darkblue;
   }
+
+
+
+  p:hover {
+    color: brown;
+  }
+  #link1:hover {
+    text-decoration: none;
+  }
+  #link2:hover {
+    color: green;
+   
+  }
