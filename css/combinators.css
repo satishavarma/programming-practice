@@ -6,3 +6,22 @@ div > p {
     color: orange;
     text-decoration: none;
   }
+
+
+  nav > ul {
+    list-style-type: none;
+    font-family: Helvetica;
+  }
+  
+  nav > ul > li {
+    float: left;
+    padding-right: 30px;
+    color: black;
+  }
+  
+  nav > ul > li > a {
+    color: midnightblue;
+    text-decoration: none;
+    border-bottom: 3px solid midnightblue;
+    font-weight: 700;
+  }

@@ -51,6 +51,31 @@
           <a href="#">Link 6</a>
 
           <!-- Here, div a will select all a elements that are the children of a div element, even when those a elements are nested deeper within the div-->
+
+          <!-- Selecting Direct Child Elements-->
+           <!-- nav > ul
+            This will select all ul elements that are direct children of nav. It will not select anything else including ul elements that are nested deeper inside the nav-->
+
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li id="dropdown">
+                  <ul>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Twitter</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
            
 </body>
 </html>
