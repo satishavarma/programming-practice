@@ -30,3 +30,24 @@ input[type="text"] {
     color: green;
    
   }
+
+
+
+  input[type="text"] {
+    border: 1px solid lightgray;
+    padding: 4px 8px;
+    font-size: 1em;
+  }
+  button {
+    border: none;
+    padding: 4px 8px;
+    background-color: purple;
+    color: white;
+    font-size: 1em;
+  }
+  #name:focus {
+    outline: 1px solid black;
+  }
+  button:focus {
+    outline: 1px solid darkblue;
+  }
