@@ -51,3 +51,23 @@ input[type="text"] {
   button:focus {
     outline: 1px solid darkblue;
   }
+
+
+
+  input[type="text"] {
+    border: 1px solid lightgray;
+    padding: 4px 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    border: none;
+    padding: 4px 8px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1em;
+  }
+  
+  button:active {
+    background-color: red;
+  }
