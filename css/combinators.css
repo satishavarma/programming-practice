@@ -32,3 +32,8 @@ div > p {
     font-size: 1.1em;
     color: green;
   }
+
+
+  h1 ~ p {
+    color: rgb(19, 205, 81);
+  }
