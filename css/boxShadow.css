@@ -52,3 +52,38 @@
   .left-upward-shadow {
     box-shadow: -10px -10px;
   }
+
+
+
+
+  #containerMain {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+  }
+  
+  .box {
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: coral;
+  }
+  
+  .pink-shadow {
+    box-shadow: 10px 10px pink;
+  }
+  
+  .orange-shadow {
+    box-shadow: 10px 10px orange;
+  }
+  
+  .gray-shadow {
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .blue-shadow {
+    box-shadow: -10px -10px rgba(50, 50, 90, 0.25);
+  }
