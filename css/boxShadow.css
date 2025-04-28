@@ -14,3 +14,41 @@
   
     box-shadow: 20px 20px;
   }
+
+
+
+
+  #containerone {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: coral;
+  }
+  
+  .right-downward-shadow {
+    box-shadow: 10px 10px;
+  }
+  
+  .right-upward-shadow {
+    box-shadow: 10px -10px;
+  }
+  
+  .left-downward-shadow {
+    box-shadow: -10px 10px;
+  }
+  
+  .left-upward-shadow {
+    box-shadow: -10px -10px;
+  }
