@@ -87,3 +87,40 @@
   .blue-shadow {
     box-shadow: -10px -10px rgba(50, 50, 90, 0.25);
   }
+
+
+
+  #containerBlurcolor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: coral;
+  }
+  
+  .no-blur-shadow {
+    box-shadow: 10px 10px pink;
+  }
+  
+  .with-blur-shadow {
+    box-shadow: 10px 10px 10px orange;
+  }
+  
+  .high-blur-shadow {
+    box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .low-blur-shadow {
+    box-shadow: -10px -10px 10px rgba(50, 50, 90, 0.25);
+  }
