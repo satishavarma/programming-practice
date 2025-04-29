@@ -4,3 +4,37 @@
     width: 50px;
     transform: scale(1.5);
   }
+
+
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .label-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .child-1 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .child-2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    transform: scale(2);
+  }
