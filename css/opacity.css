@@ -11,3 +11,19 @@ button {
   #second {
     opacity: 0.3;
   }
+
+
+  div {
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(253,186,116);
+    opacity: 0.5;
+  }
+
+
+
+  .main {
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(253,186,116,0.5);
+  }
