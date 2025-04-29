@@ -234,3 +234,37 @@
     width: 300px;
     margin-top: 10px;
   }
+
+
+
+
+
+
+
+
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .box-1 {
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-1 {
+    width: 100px;
+     transition: transform 0.25s ease 0.25s;
+  }
+  
+  .img-1:hover {
+       transform: perspective(200px) rotateY(60deg);
+  }
