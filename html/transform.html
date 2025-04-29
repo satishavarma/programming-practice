@@ -126,5 +126,34 @@
         <p>Move right 50%</p>
       </div>
     </div>
+
+
+    <!-- CHAINING TRANSFORMS-->
+
+    <!-- We can chain any number of transforms by adding a space between them. In the example above, have chained the transforms rotate and translate. When chaining multiple transforms, they are applied from right to left. Hence, in the example above, first the image gets translated to the right by 100px. However, the transform origin is still at the original position which is the center. Therefore, the image rotates about the center and shifts downwards.-->
+
+     
+    
+    <!-- 3D Transforms-->
+    <!-- So far, we have been applying transformations in 2D planes. However, transform functions can be applied in 3D planes as well.
+
+     In order to perceive a 3D effect in transforms, perspective is required. The perspective property is essential in order to bring realism as it defines how far the viewer is positioned from the transformed element.-->
+
+
+     <div class="body">
+      <div class="img-container">
+        <div class="box-1">
+          <img src="https://i.imgur.com/gSPz2ZM.jpeg" alt="cat image" class="img-1" />
+        </div>
+        <div class="box-2">
+          <img src="https://i.imgur.com/gSPz2ZM.jpeg" alt="cat image" class="img-2" />
+        </div>
+      </div>
+      <div class="label-container">
+        <p>Original</p>
+        <p>Rotated Image</p>
+      </div>
+      <input type="range" id="slider" class="slider" min="50" max="400" />
+    </div>
 </body>
 </html>

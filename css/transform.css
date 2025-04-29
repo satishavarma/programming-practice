@@ -190,3 +190,47 @@
   .img-3 {
     transform: translate(50%);
   }
+
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .img-container {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .label-container {
+    display: flex;
+    gap: 200px;
+    margin-top: 5px;
+  }
+  
+  .box-1, .box-2 {
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-1,
+  .img-2 {
+    width: 100px;
+  }
+  
+  /* The second image uses a perspective and rotation on the X-axis */
+  .img-2 {
+    transform: perspective(50px) rotateX(60deg);
+  }
+  
+  .slider {
+    width: 300px;
+    margin-top: 10px;
+  }
