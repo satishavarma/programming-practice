@@ -10,8 +10,19 @@ ul {
   }
 
 
+  ul {
+    list-style-image: url('blue-marker.png');
+  }
+
 
 
   ul {
-    list-style-image: url('blue-marker.png');
+    max-width: 350px;
+    margin-left: -20px;
+  }
+  #inner {
+    list-style-position: inside;
+  }
+  #outer {
+    list-style-position: outside; /* Default value */
   }
