@@ -23,7 +23,7 @@
   }
 
 
-  a {
+  /* a {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -32,4 +32,21 @@
     padding: 10px;
     background-color: slateblue;
     border-radius: 5px;
+  } */
+
+
+
+
+  a {
+    color: tomato;
+  }
+  a:visited {
+    color: darkgrey;
+  }
+  a:hover {
+    color: orange;
+    text-decoration: none;
+  }
+  a:active {
+    color: darkred;
   }
