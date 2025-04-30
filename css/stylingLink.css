@@ -1,7 +1,7 @@
-a {
+/* a {
     margin-right: 30px;
     font-family: sans-serif;
-  }
+  } */
   #first {
     color: tomato;
   }
@@ -20,4 +20,16 @@ a {
     text-decoration: none;
     color: orange;
     border: 1px solid;
+  }
+
+
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: slateblue;
+    border-radius: 5px;
   }
