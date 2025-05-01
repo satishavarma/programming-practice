@@ -83,10 +83,21 @@ form {
 
 
 
-  input[type="text"], textarea {
+  /* input[type="text"], textarea {
     width: 300px;
     padding: 15px;
     margin: 10px 0;
     border: 1px solid teal;
     border-radius: 10px;
+  } */
+
+
+
+  input[type="text"], textarea {
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid;
+    color: indigo;
+    background-color: lavender;
   }
