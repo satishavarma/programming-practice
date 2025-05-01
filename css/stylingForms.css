@@ -42,7 +42,17 @@ form {
   }
 
 
-  input {
+  input[type="text"] {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  input[type="radio"] {
+    width: 50px;
+    height: 10px;
+  }
+  input[type="button"] {
+    margin-top: 20px;
     width: 200px;
     height: 25px;
   }
