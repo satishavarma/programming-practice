@@ -142,34 +142,21 @@ form {
   } */
 
 
-  input[type="button"] {
-    width: 100px;
-    padding: 12px 16px;
-    background-color: #4568bb;
-    color: white;
-    font-family: sans-serif;
-    font-size: 0.9em;
-    border: none;
-    border-radius: 5px;
+  #email {
+    border: solid 1px #dddddd;
+    padding: 10px;
   }
-  input[type="reset"] {
-    width: 100px;
-    padding: 12px 16px;
-    margin-left: 10px;
-    background-color: white;
-    color: #4568bb;
-    font-family: sans-serif;
-    font-size: 0.9em;
-    border: 1px solid #4568bb;
-    border-radius: 5px;
-  }
-  input[type="submit"] {
-    width: 100%;
-    padding: 15px 0;
-    margin-top: 10px;
-    background-color: green;
-    color: white;
-    font-family: sans-serif;
-    font-size: 1em;
+  #subscribe {
+    padding: 10px;
     border: none;
+    background-color: #6789ff;
+    color: white;
+  }
+  /* Hover styles below */
+  #email:hover {
+    border: solid 1px #888888;
+  }
+  #subscribe:hover {
+    background-color: #4567de;
+    cursor: pointer;
   }
