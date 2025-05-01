@@ -68,7 +68,7 @@ form {
 
 
 
-  input[type="text"], textarea {
+  /* input[type="text"], textarea {
     width: 300px;
     padding: 15px;
     margin: 10px 0;
@@ -79,4 +79,14 @@ form {
   }
   textarea {
     border: 1px solid lightgray;
+  } */
+
+
+
+  input[type="text"], textarea {
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid teal;
+    border-radius: 10px;
   }
