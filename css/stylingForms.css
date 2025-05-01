@@ -56,3 +56,12 @@ form {
     width: 200px;
     height: 25px;
   }
+
+
+
+
+  input[type="text"], textarea {
+    padding: 15px;
+    margin: 10px 0;
+    width: 300px;
+  }
