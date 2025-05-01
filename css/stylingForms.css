@@ -115,7 +115,7 @@ form {
 
 
 
-  textarea {
+  /* textarea {
     width: 70%;
     padding: 15px;
     border: 1px solid lightgray;
@@ -127,4 +127,16 @@ form {
   
   #vertical-resizer {
       resize: vertical;
+  } */
+
+
+
+  select {
+    padding: 15px;
+    margin: 5px 0;
+    width: 20em;
+    border: 1px solid lightgray;
+    background-color: beige;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1em;
   }
