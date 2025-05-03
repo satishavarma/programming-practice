@@ -1,4 +1,4 @@
-a {
+/* a {
     color: tomato;
   }
   a:visited {
@@ -89,5 +89,16 @@ a {
   }
   span:nth-child(n+3) {
     background-color: teal;
+  } */
+
+
+
+  span {
+    padding: 5px 8px;
+    background-color: lightgray;
+    border-radius: 3px;
+  }
+  span:first-of-type {
+    background-color: orange;
   }
   
