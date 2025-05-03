@@ -103,8 +103,12 @@
   } */
 
 
-
+/* 
   a:nth-of-type(even) {
     float: right;
-  }
+  } */
   
+
+  :not(a) {
+    color: maroon;
+  }
