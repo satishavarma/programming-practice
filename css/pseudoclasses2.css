@@ -78,3 +78,16 @@ a {
   li:nth-child(even) {
     background-color: #f0f1f6;
   }
+
+
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    margin-right: 5px;
+  }
+  span:nth-child(n+3) {
+    background-color: teal;
+  }
+  
