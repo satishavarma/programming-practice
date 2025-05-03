@@ -11,3 +11,24 @@ a {
   a:active {
     color: darkred;
   }
+
+
+
+
+
+  input:focus {
+    border: 2px solid #007bff;
+    background-color: #f0f0f0;
+    outline: none;
+  }
+  
+  button:focus {
+    border: 2px solid #007bff;
+    background-color: #f0f0f0;
+    outline: none;
+  }
+  
+  button:active {
+    color: #fff;
+    background-color: #007bff;
+  }
