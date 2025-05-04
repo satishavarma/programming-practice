@@ -22,3 +22,13 @@ p {
     line-height: 1.2rem;
     color: brown;
   }
+
+
+
+  div {
+    max-width: 400px;
+  }
+  p::first-letter {
+    font-size: 2rem;
+    color: brown;
+  }
