@@ -1,4 +1,4 @@
-p {
+/* p {
     font-size: 1.1rem;
   }
   #intro::first-letter {
@@ -31,4 +31,20 @@ p {
   p::first-letter {
     font-size: 2rem;
     color: brown;
+  } */
+
+
+
+  .question::before {
+    content: "Q";
+  }
+  .answer::before {
+    content: "A";
+  }
+  .question::before, .answer::before {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 0;
+    color: tomato;
   }
