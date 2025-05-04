@@ -1,0 +1,13 @@
+p {
+    font-size: 1.1rem;
+  }
+  #intro::first-letter {
+    font-size: 2.5rem;
+    color: purple;
+  }
+  
+  #quote::before {
+    content: '“';
+    font-size: 2rem;
+    color: purple;
+  }
