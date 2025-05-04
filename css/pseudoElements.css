@@ -11,3 +11,14 @@ p {
     font-size: 2rem;
     color: purple;
   }
+
+
+
+  div {
+    max-width: 400px;
+  }
+  p::first-line {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: brown;
+  }
