@@ -13,5 +13,21 @@
     <p class="green orange">
         CSS is Cascading Style Sheets, and the cascading is important.
       </p>
+
+
+      <br>
+      <br>
+      <br>
+      <!-- Specificity Hierarchy-->
+       <!-- When the selectors are identical, or have the same importance, the rule that comes later wins. But what happens with different selectors like in the example given below -->
+
+
+       <!-- Though the rule color: red appears later in the code, the rule color: purple is used.
+
+        This is because, an ID selector is more specific than a class selector. The rule from a more specific selector is used. Here #p1 is said to have a higher Specificity.-->
+
+       <p id="p1" class="para">
+        CSS is Cascading Style Sheets, and the cascading is important.
+      </p>
 </body>
 </html>
