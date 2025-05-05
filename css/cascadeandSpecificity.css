@@ -16,9 +16,17 @@
 
 
 
-  .para {
+  /* .para {
     color: red;
   }
   p {
     color: blue;
+  } */
+
+
+  div .para .sp {
+    color: blue;
+  }
+  #p1 > span {
+    color: orange;
   }
