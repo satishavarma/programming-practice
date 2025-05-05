@@ -1,4 +1,4 @@
-.orange {
+/* .orange {
     color: orange;
   }
   .green {
@@ -12,4 +12,13 @@
   }
   .para {
     color: red;
+  } */
+
+
+
+  .para {
+    color: red;
+  }
+  p {
+    color: blue;
   }
