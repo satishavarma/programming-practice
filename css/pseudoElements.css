@@ -61,6 +61,23 @@
 
 
 
-  p::first-letter {
+  /* p::first-letter {
     initial-letter: 3 2;
-  }
+  } */
+
+
+  /* Pseudo-class */
+h2:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* Pseudo-element */
+p::first-line {
+  font-weight: bold;
+}
+
+p::before {
+  content: "Download it Now: ";
+  color: purple;
+}
