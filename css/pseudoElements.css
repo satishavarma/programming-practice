@@ -35,7 +35,7 @@
 
 
 
-  .question::before {
+  /* .question::before {
     content: "Q";
   }
   .answer::before {
@@ -57,4 +57,10 @@
     width: 100px;
     border-top: 3px solid lightgray;
     margin: 6px 10px;
+  } */
+
+
+
+  p::first-letter {
+    initial-letter: 3 2;
   }
