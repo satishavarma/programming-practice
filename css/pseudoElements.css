@@ -81,3 +81,15 @@ p::before {
   content: "Download it Now: ";
   color: purple;
 }
+
+
+
+/* Pseudo-class */
+input:disabled {
+  background-color: lightgray;
+  }
+  
+  /* Pseudo-element */
+  p::selection {
+  background: yellow;
+  }
