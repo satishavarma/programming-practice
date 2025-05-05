@@ -48,3 +48,13 @@
     line-height: 0;
     color: tomato;
   }
+
+
+
+  h2::before, h2::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    border-top: 3px solid lightgray;
+    margin: 6px 10px;
+  }
