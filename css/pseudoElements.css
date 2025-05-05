@@ -93,3 +93,26 @@ input:disabled {
   p::selection {
   background: yellow;
   }
+
+
+
+
+
+  /* Pseudo-class */
+input:focus {
+  border-color: green;
+}
+li:nth-child(even) {
+  background-color: lightpink;
+  width:100px;
+}
+
+li:first-of-type {
+  font-weight: bold;
+  background-color: lightpink;
+}
+
+/* Pseudo-element */
+li::marker {
+  color: teal;
+}
