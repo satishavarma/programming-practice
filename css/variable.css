@@ -21,3 +21,13 @@ div {
     --primary-color: blue;
     color: var(--primary-color);
   }
+
+
+
+
+
+
+
+  :root {
+    color: yellow;
+  }
