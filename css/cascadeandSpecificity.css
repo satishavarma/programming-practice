@@ -24,9 +24,25 @@
   } */
 
 
-  div .para .sp {
+  /* div .para .sp {
     color: blue;
   }
   #p1 > span {
     color: orange;
+  } */
+
+
+  #p1 {
+    background-color: orange;
+  }
+  .para {
+    background-color: gray !important;
+  }
+
+
+  #p1 {
+    background-color: orange;
+  }
+  .para {
+    background-color: gray !important;
   }
