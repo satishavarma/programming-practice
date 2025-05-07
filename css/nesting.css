@@ -1,0 +1,21 @@
+.parent {
+    color: black;
+    background-color: red;
+  
+    & span {
+      color: blue;
+    }
+  }
+  /* This is equivalent to: */
+  
+  .parent {
+    color: black;
+    background-color: red;
+  }
+  
+  .parent span {
+    color: blue;
+  }
+  /* The & is needed at the beginning of each selector for the nesting to be valid. We can think of using & as referencing the parent selector. */
+  
+  
