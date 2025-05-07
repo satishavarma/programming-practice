@@ -18,4 +18,25 @@
   }
   /* The & is needed at the beginning of each selector for the nesting to be valid. We can think of using & as referencing the parent selector. */
   
+  .outer {
+    background-color: coral;
+    padding: 20px;
   
+    & .inner {
+      background-color: teal;
+      padding: 20px;
+  
+      & p {
+        color: black;
+        background-color: cadetblue;
+        padding: 10px;
+        text-align: center;
+        font-size:2rem;
+  
+        &:hover {
+          color: white;
+          background-color: purple;
+        }
+      }
+    }
+  }
