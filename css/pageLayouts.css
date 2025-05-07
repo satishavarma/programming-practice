@@ -45,13 +45,13 @@
 
 
   /*  fixed layout*/
-  * {
+  /* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   body {
-    width: 900px; /* Fixed width */
+    width: 900px;
     margin: auto;
     padding: 10px;
     font-family: sans-serif;
@@ -68,16 +68,80 @@
   }
   .left,
   .right {
-    width: 215px; /* Fixed width */
+    width: 215px; 
     float: left;
     margin-top: 10px;
     height: 250px;
     line-height: 230px;
   }
   .main {
-    width: 430px; /* Fixed width */
+    width: 430px; 
     float: left;
     margin: 10px 10px 0;
     height: 250px;
     line-height: 230px;
+  } */
+
+
+
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: auto;
+    width: 1200px;
+  }
+  header,
+  .left,
+  .main {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  header {
+    height: 80px;
+    background-color: #f1f5ff;
+  }
+  .left {
+    width: 348px;
+    float: left;
+    height: 250px;
+    background-color: #d4d7ff;
+  }
+  .main {
+    width: 828px;
+    float: right;
+    height: 250px;
+    background-color: #ffd4d7;
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    body {
+      width: 768px;
+    }
+    .left {
+      width: 222px;
+    }
+    .main {
+      width: 530px;
+    }
+  }
+  @media (min-width: 480px) and (max-width: 767px) {
+    body {
+      width: 480px;
+    }
+    .left,
+    .main {
+      float: none;
+      width: 480px;
+    }
+  }
+  @media (max-width: 479px) {
+    body, .left, .main {
+      width: 300px;
+    }
   }
