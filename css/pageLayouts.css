@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,4 +40,44 @@
     content: "";
     display: block;
     clear: both;
+  } */
+
+
+
+  /*  fixed layout*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 900px; /* Fixed width */
+    margin: auto;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+  }
+  header, .left, .main, .right {
+    padding: 10px;
+    background-color: #f1f5ff;
+  }
+  header {
+    height: 80px;
+    line-height: 60px;
+  }
+  .left,
+  .right {
+    width: 215px; /* Fixed width */
+    float: left;
+    margin-top: 10px;
+    height: 250px;
+    line-height: 230px;
+  }
+  .main {
+    width: 430px; /* Fixed width */
+    float: left;
+    margin: 10px 10px 0;
+    height: 250px;
+    line-height: 230px;
   }
