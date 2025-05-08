@@ -41,10 +41,6 @@ section {
   }
 
 
-
-
-
-
   p {
     width: 50%;
   }
@@ -52,4 +48,10 @@ section {
     p {
       width: 100%;
     }
+  }
+
+
+  img {
+    width: 800px;
+    max-width: 100%
   }
