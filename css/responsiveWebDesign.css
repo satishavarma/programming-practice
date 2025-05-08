@@ -1,4 +1,4 @@
-section {
+/* section {
     display: flex;
   }
   .col {
@@ -69,5 +69,51 @@ section {
     }
     h2 {
       font-size: 2rem;
+    }
+  } */
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 10px;
+    margin: auto;
+  }
+  
+  header,
+  .left,
+  .right {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  header {
+    height: 80px;
+    background-color: #f1f5ff;
+  }
+  
+  .left {
+    height: 250px;
+    background-color: #d4d7ff;
+  }
+  
+  .right {
+    height: 250px;
+    background-color: #ffd4d7;
+  }
+  
+  @media (min-width: 767px) {
+    .left {
+      width: 29%;
+      float: left;
+    }
+    .right {
+      width: 69%;
+      float: right;
     }
   }
