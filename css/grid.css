@@ -21,7 +21,7 @@
   }  */
 
 
-  .container {
+  /* .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px;
@@ -35,4 +35,27 @@
     font-size: 24px;
     color: black;
     border: 0.5px solid black;
+  } */
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+  }
+  .item1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    background-color: #f26561;
+  }
+  .container > div:nth-child(1) {
+    background-color: #5bc292;
+  }
+  .container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    border: 1px solid red;
   }
