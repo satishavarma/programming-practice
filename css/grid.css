@@ -84,7 +84,7 @@
   } */
 
 
-  /*CSS related to the topic*/
+  /*CSS related to the topic
 .container {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
@@ -103,7 +103,7 @@
 .item9 {
   grid-column: 1 / -1;
 }
-/*Additional CSS for styling*/
+/*Additional CSS for styling
 .container > div:nth-child(1n) {
   background-color: #92d2b4;
 }
@@ -117,3 +117,24 @@
   font-size: 24px;
   color: black;
 }
+  */
+
+  /*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-gap: 3px;
+}
+/*Additional CSS for styling*/
+.container > div:nth-child(1n) {
+  background-color: #5bc292;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+}
+
