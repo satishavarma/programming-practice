@@ -122,7 +122,7 @@
   /*CSS related to the topic*/
 .container {
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: auto;
   grid-gap: 3px;
 }
