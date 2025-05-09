@@ -140,10 +140,32 @@
 */
 
 
-/*CSS related to the topic*/
+/*CSS related to the topic
 .container {
   display: grid;
   grid-template-rows: 100px 80px 120px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3px;
+}
+/*Additional CSS for styling
+.container > div:nth-child(1n) {
+  background-color: #5bc292;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+}
+
+*/
+
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  height: 300px;
   grid-template-columns: auto auto auto;
   grid-gap: 3px;
 }
