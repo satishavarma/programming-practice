@@ -236,3 +236,32 @@ body {
 .container > div:nth-child(4n) {
   background-color: #f7c558;
 }
+
+
+/* grid template format */
+
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template: 100px 100px 100px / 100px auto 200px;
+}
+/*Additional CSS for styling*/
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000000;
+}
+body {
+  background-color: #f6e59e;
+  padding: 10px;
+  margin: 0px;
+}
+.container > div:nth-child(1n) {
+  background-color: #92d2b4;
+}
+.container > div:nth-child(2n) {
+  background-color: #f26561;
+}
