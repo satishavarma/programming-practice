@@ -69,3 +69,28 @@
   font-size: 24px;
   color: black;
 }
+
+
+/* justify-content center */
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-gap: 5px;
+  justify-content: center;
+}
+/*Additional CSS for styling*/
+.container > div:nth-child(1n) {
+  background-color: #92d2b4;
+}
+.container > div:nth-child(2n) {
+  background-color: #f26561;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+}
