@@ -180,3 +180,59 @@
   font-size: 24px;
   color: black;
 }
+
+
+
+
+
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 60px 240px 60px;
+  grid-template-areas:
+    ". h h h h h h h h h h h"
+    "m c c c c c c c c c c c"
+    ". f f f f f f f f f f f";
+}
+.header {
+  grid-area: h;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  grid-area: m;
+}
+.content {
+  grid-area: c;
+}
+.footer {
+  grid-area: f;
+}
+/*Additional CSS for styling*/
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fae8a1;
+}
+body {
+  background-color: #f6e59e;
+  padding: 10px;
+  margin: 0px;
+}
+.container > div:nth-child(1n) {
+  background-color: #92d2b4;
+}
+.container > div:nth-child(3n) {
+  background-color: #7ecfa7;
+}
+.container > div:nth-child(2n) {
+  background-color: #f26561;
+}
+.container > div:nth-child(4n) {
+  background-color: #f7c558;
+}

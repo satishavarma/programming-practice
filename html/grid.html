@@ -154,6 +154,43 @@
             <div>9</div>
           </div>
 
-          
+          <!-- Grid Template Areas-->
+
+          <!-- The grid-template-areas attribute can be used to specify a grid layout's areas by using the grid-area property.
+
+          The grid-area property gives each grid item a name, which can referenced in the grid-template-areas property.
+
+            Apostrophes indicate each area's boundaries. And we can keep empty space by using the period symbol.
+            
+            example 
+            
+            .container {
+               display: grid;
+              grid-template-areas:
+              ". h h h h h h h h h h h"
+              "m c c c c c c c c c c c"
+               ". f f f f f f f f f f f";
+             }
+             .header {
+               grid-area: h;
+             }
+.             menu {
+               grid-area: m;
+             }
+             .content {
+               grid-area: c;
+             }
+             .footer {
+               grid-area: f;
+             }-->
+
+
+             <div class="container">
+               <div class="header">HEADER</div>
+              <div class="menu">MENU</div>
+              <div class="content">CONTENT</div>
+             <div class="footer">FOOTER</div>
+                 </div>
+             
 </body>
 </html>
