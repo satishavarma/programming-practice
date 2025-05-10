@@ -213,6 +213,30 @@
                <div>8</div>
                <div>9</div>
              </div>
-             
+
+
+             <!-- grid-template: "gird area" grid-template-rows / grid-template-columns; -->
+
+             <!-- grid-template:
+              "header header header" 100px
+               "menu content content" 200px
+               "footer footer footer" 50px /
+               150px auto auto;-->
+
+               <!-- is equivalent to-->
+                
+             <!-- grid-template-areas:
+              "header header header"
+              "menu content content"
+              "footer footer footer";
+            grid-template-rows: 100px 200px 50px;
+            grid-template-columns: 150px auto auto;-->
+
+            <div class="container">
+           <div class="header">HEADER</div>
+           <div class="menu">MENU</div>
+           <div class="content">CONTENT</div>
+           <div class="footer">FOOTER</div>
+         </div>
 </body>
 </html>
