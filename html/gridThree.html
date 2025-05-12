@@ -28,10 +28,22 @@
         <br>
         <br>
         <br>
-        
+
 
         <!-- MinMax -->
 
         <!-- The minmax() CSS function is used to set a minimum and maximum length of a grid. It accepts 2 arguments minimum value and maximum value. It is very useful for creating responsive layouts when combined with relative units like fr. -->
+
+        <!-- NOTE - minmax(100px, 1fr) the width of the first column remains minimum 100px or at max 1fr, so it changes according to the width of the screen. -->
+
+
+        <!-- Repeat -->
+         <!-- The repeat() CSS function makes writing grid-template-columns and grid-template-rows properties concise and easier, when creating a large amount of columns or rows. -->
+
+         <!-- grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; could be written as grid-template-columns: repeat( 6, 1fr );
+
+        grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr; could be written as grid-template-columns: repeat(3, 1fr 2fr);
+
+        Repeat() can be used with minmax() for example grid-template-columns: repeat(3, minmax(200px, 1fr)) will create 3 columns with minimum of 200px or maximum of 1fr width. -->
 </body>
 </html>
