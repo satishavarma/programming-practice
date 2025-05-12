@@ -188,7 +188,7 @@
 
 /* Auto-Fill */
 
-/*CSS related to the topic*/
+/*CSS related to the topic
 .container {
   display: grid;
   grid-template-columns: repeat( auto-fill, minmax(50px, 1fr) );
@@ -196,7 +196,7 @@
   grid-gap: 5px;
 }
 
-/*Additional CSS for styling*/
+/*Additional CSS for styling
 .html-name {
   background-color: #29B6FE;
 }
@@ -239,4 +239,30 @@
   position: relative;
   box-shadow: -1px -1px 1px 1px #2d2d2d;
   border-radius: 5%;
+}
+*/
+
+
+/* Grid Auto Flow Row*/
+/*CSS related to the topic*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-flow: row;
+}
+/*Additional CSS for styling*/
+.container > div:nth-child(1n) {
+  background-color: #92d2b4;
+}
+.container > div:nth-child(2n) {
+  background-color: #f26561;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000000;
 }
