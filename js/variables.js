@@ -75,3 +75,18 @@ console.log(typeof 12345);
 console.log(typeof 12.345);
 console.log(typeof true);
 console.log(typeof undefined);
+
+
+
+// POINT 8 = Expressions
+// Note that, operators that require two operands are called binary operators. +, -, *, /, and = are all binary operators.
+
+// Operators that require only one operand are called unary operators. typeof is a unary operator.
+
+// The operators +, -, *, and / are called arithmetic operators and are used to perform arithmetic operations on numbers.
+console.log(20 + 30);
+
+const lengthO = 1000;
+console.log(lengthO / 100);
+
+console.log(typeof "Hello World");
