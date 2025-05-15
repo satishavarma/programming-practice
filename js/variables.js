@@ -19,3 +19,22 @@ console.log(validVariableName);
 
 const lengthOfBox = 120;
 console.log(lengthOfBox);
+
+
+
+// POINT 4 = const
+// we created variables using the const keyword. const is short for "constant". It is used to create a variable whose value is not intended to be changed at all, once it is created. If we try to change the value of a variable created using the const keyword, we will get an error.
+
+const speed = 40;
+console.log(speed);
+
+
+//speed = 56;  This will cause an error when code is run
+console.log(speed);
+
+// declaration const speed
+// This part where we create the variable is called declaration.
+
+// initialization = 40;
+
+// The second part of assigning the created (declared) variable an initial value is called initialization.
