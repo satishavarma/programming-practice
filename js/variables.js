@@ -51,3 +51,9 @@ console.log(speedOne);
 
 // We declared the variable speed using let keyword and assigned the value 40 to it.
 // Then we changed the value of speed to 56 with the statement speed = 56.
+
+
+// Differences between let and const
+// Once a variable is pointing to something, then let allows us to assign a different item to the variable so that the variable can point to something else.
+
+// const doesn't allow that. In the case of const, once a variable points to an item, JavaScript will not allow us to change the variable to something else. However, JavaScript allows us to change the item to which let and const are pointing. In other words, both let and const allow mutation, but only let allows assigning new values.
