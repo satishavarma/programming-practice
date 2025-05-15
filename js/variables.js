@@ -57,3 +57,12 @@ console.log(speedOne);
 // Once a variable is pointing to something, then let allows us to assign a different item to the variable so that the variable can point to something else.
 
 // const doesn't allow that. In the case of const, once a variable points to an item, JavaScript will not allow us to change the variable to something else. However, JavaScript allows us to change the item to which let and const are pointing. In other words, both let and const allow mutation, but only let allows assigning new values.
+
+
+
+// POINT 6 = Declaring Multiple Variables in a Single Line
+let length, width, height;
+const lengthone = 120, widthone = 60, heightone = 40;
+console.log("The values of Length, Height and Width are:")
+
+console.log(lengthone, widthone, heightone);
