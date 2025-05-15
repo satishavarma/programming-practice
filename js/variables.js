@@ -66,3 +66,12 @@ const lengthone = 120, widthone = 60, heightone = 40;
 console.log("The values of Length, Height and Width are:")
 
 console.log(lengthone, widthone, heightone);
+
+
+// Point 7 = typeof
+// We can identify the type of any data, using typeof
+console.log(typeof "Hello World!");
+console.log(typeof 12345);
+console.log(typeof 12.345);
+console.log(typeof true);
+console.log(typeof undefined);
