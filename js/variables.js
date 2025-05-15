@@ -38,3 +38,16 @@ console.log(speed);
 // initialization = 40;
 
 // The second part of assigning the created (declared) variable an initial value is called initialization.
+
+
+// POINT 5 = let
+//  if we know that the value of the variable needs to be changed later, we need to declare the variable using the let keyword.
+
+let speedOne = 40;
+console.log(speedOne);
+
+speedOne = 56;
+console.log(speedOne);
+
+// We declared the variable speed using let keyword and assigned the value 40 to it.
+// Then we changed the value of speed to 56 with the statement speed = 56.
