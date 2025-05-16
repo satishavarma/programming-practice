@@ -133,3 +133,23 @@ console.log(numberVal == stringVal);
 // Boolean operands are converted into numbers, where true becomes 1 and false becomes 0.
 // When comparing an object to a primitive value (string, number or boolean), the object is first converted into a primitive value before the comparison is performed.
 // For null or undefined, the comparison returns true only if both operands are either null or undefined.
+
+
+// POINT 13 - Changing Data Type
+const lengthOfBoxx = 120;
+console.log(lengthOfBoxx);
+
+const lengthOfBoxWithUnit = "120cm";
+console.log(lengthOfBoxWithUnit);
+
+console.log("Length of box in meters");
+console.log(lengthOfBox * 100);
+
+
+// We declare a variable lengthOfBox and assign the value 120 of type number.
+
+// Later we change the value of lengthOfBox to "120cm", which is of the type string.
+
+// We get the output NaN, when we performed the operation lengthOfBox * 100 because we tried to multiply a string with a number. We will learn about NaN in another section.
+
+// Such confusion can occur when we are working in a team. Someone other than the person who originally wrote the code might look at the variable declaration let lengthOfBox = 120 and assume that the value of lengthOfBox will always be a number. Hence, they might add more code under the same assumption without realizing that the data type was later changed somewhere in the code, which will have a negative impact on the program/application.
