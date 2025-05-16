@@ -90,3 +90,9 @@ const lengthO = 1000;
 console.log(lengthO / 100);
 
 console.log(typeof "Hello World");
+
+
+// POINT 9 = Storing Result of Expressions
+
+const sum = 23 + 45;
+console.log(sum);
