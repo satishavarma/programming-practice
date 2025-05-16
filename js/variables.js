@@ -116,3 +116,12 @@ const sentenceOne = "The name is Oliver.";
 const sentenceTwo = "The name is Oliver.";
 
 console.log(sentenceOne === sentenceTwo);
+
+
+// POINT 12 - Loose Equality
+// The loose equality operator == is used to compare two values. Unlike strict equality, loose equality performs type coercion, converting one or both operands to the same type before comparing them.
+
+const numberVal = 9;
+const stringVal = "9";
+
+console.log(numberVal == stringVal);
