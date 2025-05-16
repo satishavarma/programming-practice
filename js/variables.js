@@ -96,3 +96,9 @@ console.log(typeof "Hello World");
 
 const sum = 23 + 45;
 console.log(sum);
+
+// POINT 10 Boolean
+// The values true and false are known as Boolean values.
+
+const isAdmin = true;
+console.log(isAdmin);
