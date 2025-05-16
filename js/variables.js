@@ -125,3 +125,11 @@ const numberVal = 9;
 const stringVal = "9";
 
 console.log(numberVal == stringVal);
+
+// Rules for Type Coercion
+// Understanding type coercion rules can help you predict the behavior of the == operator.
+
+// When one operand is a string, the other will be coerced into a string as well. Similarly, if one operand is a number, the other will be converted into a number.
+// Boolean operands are converted into numbers, where true becomes 1 and false becomes 0.
+// When comparing an object to a primitive value (string, number or boolean), the object is first converted into a primitive value before the comparison is performed.
+// For null or undefined, the comparison returns true only if both operands are either null or undefined.
