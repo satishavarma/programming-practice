@@ -102,3 +102,17 @@ console.log(sum);
 
 const isAdmin = true;
 console.log(isAdmin);
+
+
+// POINT 11 Strict Equality
+// The strict equality operator === is used to compare two values. It requires both the value and the type of the operands to be the same to return true. If either the value or the type is different, the result will be false.
+
+const numberValue = 9;
+const stringValue = "9";
+
+console.log(numberValue === stringValue);
+
+const sentenceOne = "The name is Oliver.";
+const sentenceTwo = "The name is Oliver.";
+
+console.log(sentenceOne === sentenceTwo);
