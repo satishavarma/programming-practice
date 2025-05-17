@@ -16,3 +16,11 @@ console.log(negativeNumber);
 
 const fractionalNumber = 12.34;
 console.log(fractionalNumber);
+
+
+// POINT 2 = NaN
+// In JavaScript, NaN stands for Not a Number. If we perform an arithmetic operation on a value that is not a number, we get NaN as the result.
+
+const personID = "123abc";
+const product = personID * 2;
+console.log(product);
