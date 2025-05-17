@@ -24,3 +24,11 @@ console.log(fractionalNumber);
 const personID = "123abc";
 const product = personID * 2;
 console.log(product);
+
+
+// POINT 3 =Increase or Decrease a Number by One
+
+let number = 10;
+number++; // This is same as number = number + 1
+
+console.log(number);
