@@ -17,3 +17,13 @@ const lastName = "Smith";
 const fullNam = firstName + lastName;
 
 console.log(fullNam);
+
+
+// POINT 3 = Template Strings
+// Template strings are enclosed within backticks ` instead of single or double quotes. You don't need to use + operator to concatenate strings.
+
+const firstNum = 2;
+const secondNum = 3;
+const result = firstNum + secondNum;
+
+console.log(`Adding ${firstNum} and ${secondNum} gives ${result}`);
