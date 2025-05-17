@@ -32,3 +32,10 @@ let number = 10;
 number++; // This is same as number = number + 1
 
 console.log(number);
+
+
+// We can use -- to decrement the value of a number by 1.
+let numberNegative = 10;
+number--; // This is same as number = number - 1
+
+console.log(numberNegative);
