@@ -35,3 +35,14 @@ const totalIncome = 60000;
 const totalExpense = 36000;
 
 console.log(`Your balance is ${totalIncome - totalExpense}`);
+
+
+// Multi-line Template Strings
+const itemList = `Fruits:
+  Apple
+  Mango
+  Banana
+  Orange
+`;
+
+console.log(itemList);
