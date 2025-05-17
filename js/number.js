@@ -9,3 +9,10 @@ console.log(positiveNumber);
 
 const negativeNumber = -1234;
 console.log(negativeNumber);
+
+
+//  Fractional number
+// In the example given below, the variable fractionalNumber stores the number 12.34.
+
+const fractionalNumber = 12.34;
+console.log(fractionalNumber);
