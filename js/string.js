@@ -27,3 +27,11 @@ const secondNum = 3;
 const result = firstNum + secondNum;
 
 console.log(`Adding ${firstNum} and ${secondNum} gives ${result}`);
+
+
+// POINT 4 = String Interpolation
+// We can insert the values of variables into a template string using the ${} notation. This is known as string interpolation.
+const totalIncome = 60000;
+const totalExpense = 36000;
+
+console.log(`Your balance is ${totalIncome - totalExpense}`);
