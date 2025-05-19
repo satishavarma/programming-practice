@@ -93,3 +93,14 @@ const subjectsUpdate = {
 subjectsUpdate[103] = "Mathematics";
 
 console.log(subjectsUpdate);
+
+
+// POINT 8 = Get Object Keys - Object.keys()
+const personKey = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+const res = Object.keys(personKey);
+console.log(res);
