@@ -104,3 +104,13 @@ const personKey = {
 
 const res = Object.keys(personKey);
 console.log(res);
+
+// POINT 9 Get Object Values - Object.values()
+const personValue = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+const resultval = Object.values(personValue);
+console.log(resultval);
