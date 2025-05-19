@@ -81,3 +81,15 @@ subjects[104] = "Computer";
 subjects[21 * 5] = "Mathematics"; // Same as subjects[105] = "Mathematics"
 
 console.log(subjects);
+
+// POINT 7 = Update Object Property using Bracket Notation
+
+const subjectsUpdate = {
+  101: "Physics",
+  102: "Biology",
+  103: "Chemistry"
+};
+
+subjectsUpdate[103] = "Mathematics";
+
+console.log(subjectsUpdate);
