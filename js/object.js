@@ -50,3 +50,21 @@ const personThree = {
 personThree.age = 23;
 
 console.log(personThree);
+
+
+// POINT 6 = Get Object Values - Bracket Notation
+
+const personBracket = {
+  12: "Adam",
+  13: "Samantha"
+};
+
+console.log(personBracket[12]);
+
+// Another exaample 
+const project = {
+  "project-lead": "Adam",
+  developer: "Samantha"
+};
+
+console.log(project["project-lead"]);
