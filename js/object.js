@@ -17,3 +17,13 @@ const carTwo = {
 const result = `It is a ${carTwo.model} model car that runs on ${car.fuelType} and has ${carTwo.seatingCapacity} seats.`
 
 console.log(result);
+
+
+// POINT 3 = Get Object Values - Dot Notation
+
+const person = {
+  name: "Oliver",
+  hobby: "Writing"
+};
+
+console.log(person.name);
