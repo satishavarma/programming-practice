@@ -39,3 +39,14 @@ const personTwo = {
 personTwo.profession = "Engineer";
 
 console.log(personTwo);
+
+// POINT 5 = Update Object Property using Dot Notation
+const personThree = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+personThree.age = 23;
+
+console.log(personThree);
