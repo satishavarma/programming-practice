@@ -27,3 +27,15 @@ const person = {
 };
 
 console.log(person.name);
+
+// POINT 4 = Add Object Property using Dot Notation
+
+const personTwo = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+personTwo.profession = "Engineer";
+
+console.log(personTwo);
