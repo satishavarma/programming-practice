@@ -68,3 +68,16 @@ const project = {
 };
 
 console.log(project["project-lead"]);
+
+// POINT 7 = Add Object Property using Bracket Notation
+
+const subjects = {
+  101: "Physics",
+  102: "Biology",
+  103: "Chemistry"
+};
+
+subjects[104] = "Computer";
+subjects[21 * 5] = "Mathematics"; // Same as subjects[105] = "Mathematics"
+
+console.log(subjects);
