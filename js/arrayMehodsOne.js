@@ -26,3 +26,10 @@ console.log(sports);
 const games = ["Football", "Cricket", "Basketball"];
 const lastElement = games.pop();
 console.log(lastElement);
+
+// Method 4 = Removing Array Element - shift
+// The shift() method removes the first element of an array.
+const sprt = ["Football", "Cricket", "Basketball"];
+sprt.shift();
+
+console.log(sprt);
