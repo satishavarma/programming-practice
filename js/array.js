@@ -13,3 +13,10 @@ console.log(fruits[1]);
 console.log(fruits[2]);
 console.log(fruits[3]);
 console.log(fruits[4]);
+
+
+// POINT 3 = Adding to Array
+
+const vegetables = ["corn", "carrot", "potato"];
+vegetables[3] = "beetroot";
+console.log(vegetables);
