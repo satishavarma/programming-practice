@@ -26,3 +26,23 @@ const sports = ["Football", "Cricket", "Basketball"];
 sports[1] = "Hockey";
 
 console.log(sports);
+
+
+// POINT 5 =Mixing Different Data Types in Array
+const name = "Parker";
+const mixedArr = [1, "hello", name, true, null, undefined];
+
+const arrayOfArrays =[
+  [1, 2, 3, 4, 5],
+  ["Peter", "Mary", "May", "Ben"],
+  [true, false, true, false]
+];
+
+const arrayOfObjects = [
+  {one: 1, two: 2},
+  {fruit: "apple", vegetable: "onion"}
+];
+
+console.log(mixedArr);
+console.log(arrayOfArrays);
+console.log(arrayOfObjects);
