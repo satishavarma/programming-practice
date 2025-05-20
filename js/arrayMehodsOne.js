@@ -33,3 +33,11 @@ const sprt = ["Football", "Cricket", "Basketball"];
 sprt.shift();
 
 console.log(sprt);
+
+// Method = 5 Array Length
+// We can use .length to get the number of elements in an array, also known as the length of the array.
+const fruits = ["Apple", "Banana"];
+console.log(fruits.length);
+
+fruits[2] = "Mango";
+console.log(fruits.length);
