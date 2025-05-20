@@ -20,3 +20,9 @@ console.log(fruits[4]);
 const vegetables = ["corn", "carrot", "potato"];
 vegetables[3] = "beetroot";
 console.log(vegetables);
+
+// POINT 4 = Updating Array Element
+const sports = ["Football", "Cricket", "Basketball"];
+sports[1] = "Hockey";
+
+console.log(sports);
