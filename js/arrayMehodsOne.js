@@ -14,3 +14,10 @@ const vegis = ["corn", "carrot", "potato"];
 vegis.unshift("beetroot");
 
 console.log(vegis);
+
+// Method 3 = Removing Array Element - pop
+// The pop() method removes the last element of an array.
+const sports = ["Football", "Cricket", "Basketball"];
+sports.pop();
+
+console.log(sports);
