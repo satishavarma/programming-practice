@@ -114,3 +114,15 @@ const personValue = {
 
 const resultval = Object.values(personValue);
 console.log(resultval);
+
+// POINT 10 = Get Object Keys and Values - Object.entries()
+// We can get all the key-value pairs of an object using Object.entries(). It returns the key-value pairs as an array of arrays.
+
+const personEntries = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+const resultentry = Object.entries(personEntries);
+console.log(resultentry);
