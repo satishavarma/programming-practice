@@ -21,3 +21,8 @@ const sports = ["Football", "Cricket", "Basketball"];
 sports.pop();
 
 console.log(sports);
+
+// The pop() method also returns the element that was removed, as shown in the example below.
+const games = ["Football", "Cricket", "Basketball"];
+const lastElement = games.pop();
+console.log(lastElement);
