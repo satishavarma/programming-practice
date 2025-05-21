@@ -17,3 +17,10 @@ console.log(Boolean(false));
 console.log(Boolean(null));
 console.log(Boolean(undefined));
 console.log(Boolean(NaN));
+
+// Truthy values
+console.log(Boolean(12));
+console.log(Boolean(true));
+console.log(Boolean("Banana"));
+console.log(Boolean(["Apple", "Mango"]));
+console.log(Boolean({ name: "Sam Smith" }));
