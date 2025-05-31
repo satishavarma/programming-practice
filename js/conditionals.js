@@ -49,3 +49,16 @@ if (number % 2 === 0) {
 } else {
   console.log("number is odd");
 }
+
+
+// The else if statement is used along with the if and else statements. It is used to execute blocks of code conditionally when there are more than two conditions.
+
+const num = 0;
+
+if (num > 0) {
+  console.log("The number is positive.");
+} else if (num === 0) {
+  console.log("The number is 0.");
+} else {
+  console.log("The number is negative.");
+}
