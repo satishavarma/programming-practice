@@ -62,3 +62,28 @@ if (num > 0) {
 } else {
   console.log("The number is negative.");
 }
+
+
+// Switch Statement
+// When you have a number of conditions to evaluate for a given expression, using an if else might not be the best method.
+
+
+const name = "Eve";
+
+switch(name) {
+  case "Sam":
+    console.log("This is the owner.");
+    break;
+
+  case "Eve":
+    console.log("This is the admin.");
+    break;
+
+  case "Renu":
+    console.log("This is the manager.");
+    break;
+
+  default:
+    console.log("This person does not have a role.");
+    break;
+}
