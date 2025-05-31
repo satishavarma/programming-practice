@@ -24,3 +24,16 @@ console.log(Boolean(true));
 console.log(Boolean("Banana"));
 console.log(Boolean(["Apple", "Mango"]));
 console.log(Boolean({ name: "Sam Smith" }));
+
+
+
+// POINT 2 =  if Statement
+// We can use the if statement to execute a block of code when the given condition evaluates to true. Let's see how the if statement is used in the example below.
+
+
+const ageMinor = 12;
+const votingAge = 18;
+
+if (ageMinor < votingAge) {
+  console.log("Person is not eligible to vote");
+}
