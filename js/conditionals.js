@@ -37,3 +37,15 @@ const votingAge = 18;
 if (ageMinor < votingAge) {
   console.log("Person is not eligible to vote");
 }
+
+
+// else statement
+// The else statement is used along with the if statement. The else statement executes a block of code when the condition in the if statement results in false.
+
+const number = 7;
+
+if (number % 2 === 0) {
+  console.log("number is even");
+} else {
+  console.log("number is odd");
+}
