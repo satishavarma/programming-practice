@@ -68,9 +68,9 @@ if (num > 0) {
 // When you have a number of conditions to evaluate for a given expression, using an if else might not be the best method.
 
 
-const name = "Eve";
+const nameOne = "Eve";
 
-switch(name) {
+switch(nameOne) {
   case "Sam":
     console.log("This is the owner.");
     break;
@@ -87,3 +87,24 @@ switch(name) {
     console.log("This person does not have a role.");
     break;
 }
+
+
+
+// switch statement fall through method
+// As you read in the previous lesson that when break statement is not provided, the execution will continue to the next case's code block. We can take advantage of this feature to handle multiple cases together.
+const passedRollNumbers = [ 8746, 5649, 3268, 7901 ];
+const otherRollNumbers = [ 4387, 1752, 6210, 9834 ];
+const rollNumberToCheck = 7901;
+
+switch(rollNumberToCheck) {
+  case 8746: case 5649: case 3268: case 7901:
+    console.log("Congratulations, you have passed the test!");
+    break;
+
+  case 4387: case 1752: case 6210: case 9834:
+    console.log("Unfortunately, you did not pass the test. Better luck next time!");
+    break;
+
+  default:
+    console.log("Provided roll number is invalid");
+};
