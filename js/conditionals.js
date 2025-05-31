@@ -108,3 +108,20 @@ switch(rollNumberToCheck) {
   default:
     console.log("Provided roll number is invalid");
 };
+
+
+
+// Ternary Operator
+// The Ternary operator has three parts or operands.
+
+// It starts with a condition followed by the ? operator.
+
+// It is then followed by two expressions, separated by the : operator.
+
+// The expression to the left of the : operator is evaluated when the condition is true.
+
+// The expression to the right of the : operator is evaluated when the condition is false.
+
+const value = 4;
+const numberType = (value % 2 === 0) ? "even" : "odd";
+console.log(numberType);
