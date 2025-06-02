@@ -26,3 +26,16 @@ if (student.marks >= 75 && student.internshipDone) {
 } else {
   console.log(`Your course fee is: ${courseFee}.`);
 }
+
+
+// NOT
+// The NOT operator - !, when applied to a value or expression returns false if the condition evaluates to true and returns true if the condition evaluates to false.
+
+const user = {
+  name: "Oliver Smith",
+  isAdmin: false,
+};
+
+if (!user.isAdmin) {
+  console.log("You do not have access to this feature");
+}
