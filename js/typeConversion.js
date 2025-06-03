@@ -25,3 +25,11 @@ console.log(string);
 
 const number = Number(string);
 console.log(number);
+
+
+
+
+// Non-empty Strings which don't contain a valid number get converted to NaN.
+let invalidNumberString = "2abc";
+invalidNumberString = Number(invalidNumberString)
+console.log(invalidNumberString);
