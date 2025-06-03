@@ -39,3 +39,14 @@ const user = {
 if (!user.isAdmin) {
   console.log("You do not have access to this feature");
 }
+
+
+// NOT vs Inequality Operators
+const studentOne = {
+  grade: "A",
+  nationality: "Indian",
+};
+
+if (studentOne.grade !== "D") {
+  console.log("You get a 10% discount on your course fee");
+}
