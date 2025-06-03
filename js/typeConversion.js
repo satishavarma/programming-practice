@@ -33,3 +33,12 @@ console.log(number);
 let invalidNumberString = "2abc";
 invalidNumberString = Number(invalidNumberString)
 console.log(invalidNumberString);
+
+// Boolean to Number
+let booleanTrue = true;
+booleanTrue = Number(booleanTrue);
+console.log(booleanTrue);
+
+let booleanFalse = false;
+booleanFalse = Number(booleanFalse);
+console.log(booleanFalse);
