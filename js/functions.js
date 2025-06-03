@@ -4,3 +4,12 @@ function displayValidationError() {
 }
 
 displayValidationError();
+
+
+// Use the Arrow Function
+
+const displayValidationError = () => {
+  console.log("The user details are not valid.");
+}
+
+displayValidationError();
