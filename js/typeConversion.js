@@ -42,3 +42,10 @@ console.log(booleanTrue);
 let booleanFalse = false;
 booleanFalse = Number(booleanFalse);
 console.log(booleanFalse);
+
+// Composite data types
+
+console.log(typeof { name: "This is an object" });
+console.log(typeof ["This", "is", "an", "array"]);
+console.log(typeof new Date());
+console.log(typeof new Map());
