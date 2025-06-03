@@ -50,3 +50,19 @@ const studentOne = {
 if (studentOne.grade !== "D") {
   console.log("You get a 10% discount on your course fee");
 }
+
+
+// Nullish Coalescing Operator
+console.log("Hello Sam Smith" ?? "Hello Guest");
+
+console.log(null ?? "Hello Guest");
+
+console.log(undefined ?? "Hello Guest");
+
+console.log(0 ?? 234);
+
+console.log(false ?? true);
+
+console.log(undefined ?? null);
+
+console.log(null ?? null);
