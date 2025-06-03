@@ -5,3 +5,23 @@
 console.log(2);
 console.log(String(2));
 console.log((2).toString());
+
+
+
+//  Boolean to string
+console.log(true);
+console.log(String(true));
+console.log(true.toString());
+
+
+// Converting to Number
+// We can use the Number() method to convert a non-number value to a number.
+
+// String to Number
+// A String which only contains a valid number will get converted to a Number.
+
+const string = "2";
+console.log(string);
+
+const number = Number(string);
+console.log(number);
