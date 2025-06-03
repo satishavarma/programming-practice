@@ -13,3 +13,11 @@ fruits.forEach((fruit, index, array) => {
   const result = `${fruit} is a fruit. It is at index ${index} in the array: ${array}.`;
   console.log(result)
 });
+
+
+
+// Map method
+// Note = The map() method returns an array, while forEach() does not. Knowing this distinction is helpful when you choose the right method for your task.
+const evenNumbers = [2, 4, 6];
+const oddNumbers = evenNumbers.map((number) => number + 1);
+console.log(oddNumbers);
