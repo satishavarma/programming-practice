@@ -21,3 +21,19 @@ fruits.forEach((fruit, index, array) => {
 const evenNumbers = [2, 4, 6];
 const oddNumbers = evenNumbers.map((number) => number + 1);
 console.log(oddNumbers);
+
+
+// Difference between forEach and map
+
+// ForEAch = The forEach() method is used to loop through array elements. It runs the same function on each element. It doesn't change the given array and returns undefined.
+
+// MAp = The map() method also iterates through array elements. It applies a function to each element. It creates a new array with the modified elements, and returns the new array.
+
+// Filter elements based on given condition
+// The filter() method creates a new array containing only certain elements from the array it is invoked on.
+
+// filter() accepts a function as an argument. It invokes that function on each element of an array.
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumber = numbers.filter(number => number % 2 === 0);
+console.log(evenNumber);
